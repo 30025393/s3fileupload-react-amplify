@@ -61,7 +61,7 @@ const App = () => {
       />
       <div className='header'>
         <h2>
-          <a href='/'>AT3 Cloud Managed Service</a>
+          <a href='/'>Welcome to AT3 Cloud Managed Service</a>
         </h2>
       </div>
       <div className='video-uploader'>
