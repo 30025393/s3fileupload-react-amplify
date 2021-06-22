@@ -51,8 +51,7 @@ const App = () => {
   return (
     <AmplifyAuthenticator>
       <AmplifySignIn
-        headerText='Welcome to A&J&M Cloud Managed Service'
-        headerText='Sign-In Your Email Address'
+        headerText='Welcome to A&J&M Cloud Managed Service\nSign-In Your Email Address'
         slot='sign-in'
       />
       <AmplifySignUp
