@@ -51,22 +51,22 @@ const App = () => {
   return (
     <AmplifyAuthenticator>
       <AmplifySignIn
-        headerText='Welcome to A&J&M Cloud Managed Service,Sign-In Your Email Address'
+        headerText='AWS TCS Team, Sign-In with Your E-Mail Address'
         slot='sign-in'
       />
       <AmplifySignUp
-        headerText='AT3 Cloud Managed Service, Sign-Up with Your Valid E-Mail Address'
+        headerText='AWS TCS Team, Sign-Up with Your Valid E-Mail Address'
         slot='sign-up'
       />
       <div className='header'>
         <h2>
-          <a href='/'>Welcome to AT3 Cloud Managed Service</a>
+          <a href='/'>TCS Team Video Uploader</a>
         </h2>
       </div>
       <div className='video-uploader'>
         <form onSubmit={(e) => onSubmit(e)}>
           <p>
-            <label className='select-label'>Select file: </label>
+            <label className='select-label'>Select video: </label>
           </p>
           <p>
             <input
