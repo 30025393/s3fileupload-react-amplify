@@ -64,7 +64,7 @@ a:active {
 }
 
 body {
-  background-size: contain;
+  background-size: auto;
   background-image: url("/perth.jpg");
 }
 
