@@ -59,7 +59,7 @@ const App = () => {
   return (
     <AmplifyAuthenticator>
       <AmplifySignIn
-        headerText='Welcome to TAFE!'
+        headerText='Welcome to TAFE! Sign-in here'
         slot='sign-in'
       />
       <AmplifySignUp
