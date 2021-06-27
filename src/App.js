@@ -11,15 +11,6 @@ import { MdSend /* MdList */ } from 'react-icons/md'
 import awsConfig from './aws-exports'
 Amplify.configure(awsConfig)
 
-//
-function App() {
-  return(
-    <div className="container">
-      
-    </div>
-  );
-}
-
 
 const App = () => {
   const [name, setName] = useState('')
@@ -32,6 +23,13 @@ const App = () => {
       setFile(e.target.files[0])
       setName(e.target.files[0].name)
     }
+  return(
+    <div className="container">
+        
+    </div>
+  );
+  
+  
   }
 
   const onSubmit = (e) => {
