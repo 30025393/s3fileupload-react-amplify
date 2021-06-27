@@ -11,13 +11,13 @@ import { MdSend /* MdList */ } from 'react-icons/md'
 import awsConfig from './aws-exports'
 Amplify.configure(awsConfig)
 
-  function App() {
-    return(
-      <div className="container">
+function App() {
+  return(
+    <div className="container">
       
-      </div>
-    );
-  }
+    </div>
+  );
+}
 
 
 const App = () => {
