@@ -67,6 +67,11 @@ body {
   background-color: green;
 }
 
+
+.container{
+  background-image: url("/perth.jpg");
+}
+
 .header {
   margin-left: 0;
   margin-right: 0;
