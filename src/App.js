@@ -11,6 +11,15 @@ import { MdSend /* MdList */ } from 'react-icons/md'
 import awsConfig from './aws-exports'
 Amplify.configure(awsConfig)
 
+  function App() {
+    return(
+      <div className="container">
+      
+      </div>
+    );
+  }
+
+
 const App = () => {
   const [name, setName] = useState('')
   const [file, setFile] = useState('')
@@ -51,16 +60,16 @@ const App = () => {
   return (
     <AmplifyAuthenticator>
       <AmplifySignIn
-        headerText='AWS TCS Team, Sign-In with Your E-Mail Address'
+        headerText='Welcome to TAFE!'
         slot='sign-in'
       />
       <AmplifySignUp
-        headerText='AWS TCS Team, Sign-Up with Your Valid E-Mail Address'
+        headerText='Welcome to TAFE!Sign-up here'
         slot='sign-up'
       />
       <div className='header'>
         <h2>
-          <a href='/'>TCS Team Video Uploader</a>
+          <a href='/'>TAFE File Uploader</a>
         </h2>
       </div>
       <div className='video-uploader'>
