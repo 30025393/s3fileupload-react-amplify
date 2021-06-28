@@ -85,8 +85,9 @@ body {
   padding-bottom: 1px;
   margin-bottom: 0;
   color: rgb(194, 58, 81);
-  background-color: darkslateblue;
-  font-family: Dengxian;
+  background-color: rgb(82, 83, 70);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2rem;
@@ -103,7 +104,7 @@ body {
   padding-top: 1px;
   padding-bottom: 0px;
   /* margin-bottom: 5rem; */
-  color: darkslateblue;
+  color: rgb(82, 83, 70);
   background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
