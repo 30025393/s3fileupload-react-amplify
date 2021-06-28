@@ -1,5 +1,5 @@
 :root {
-  --amplify-primary-color: darkslateblue;
+  --amplify-primary-color: #132438;
   --amplify-primary-tint: rgb(39, 39, 151); 
   --amplify-primary-shade: rgb(105, 95, 171);
 }
@@ -90,7 +90,7 @@ body {
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: 1.1;
 }
 
@@ -140,7 +140,7 @@ body {
   background-color: white;
   text-align: center;
   letter-spacing: 0.5px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   outline: 0;
   border: none;
   border-radius: 2px;
