@@ -68,13 +68,13 @@ const App = () => {
       />
       <div className='header'>
         <h2>
-          <a href='/'>TAFE File Uploader</a>
+          <a href='/'>ACME File Uploader</a>
         </h2>
       </div>
       <div className='video-uploader'>
         <form onSubmit={(e) => onSubmit(e)}>
           <p>
-            <label className='select-label'>Select video: </label>
+            <label className='select-label'>Select Files: </label>
           </p>
           <p>
             <input
