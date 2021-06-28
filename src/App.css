@@ -85,7 +85,7 @@ body {
   padding-bottom: 1px;
   margin-bottom: 0;
   color: rgb(194, 58, 81);
-  background-color: rgb(82, 83, 70);
+  background-color: #132438;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -104,7 +104,7 @@ body {
   padding-top: 1px;
   padding-bottom: 0px;
   /* margin-bottom: 5rem; */
-  color: rgb(82, 83, 70);
+  color: #132438;
   background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -125,7 +125,7 @@ body {
   padding-bottom: 5px;
   margin-bottom: 1rem;
   color: white;
-  background-color: darkslateblue;
+  background-color: #132438;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -136,7 +136,7 @@ body {
 
 .btn {
   text-decoration: none;
-  color: darkslateblue;
+  color: #132438;
   background-color: white;
   text-align: center;
   letter-spacing: 0.5px;
@@ -171,7 +171,7 @@ body {
 
 .video-input {
   text-decoration: none;
-  color: darkslateblue;
+  color: #132438;
   background-color: white;
   text-align: center;
   font-size: 1.5rem;
